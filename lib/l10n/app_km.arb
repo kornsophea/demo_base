@@ -1,0 +1,19 @@
+{
+  "hello": "សួស្តី {username},",
+  "@hello": {
+    "description": "A welcome message",
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "helloWorld": "សួស្តីពិភពលោក!",
+  "@helloWorld": {
+    "description": "A programmer greeting"
+  },
+  "language": "អង់គ្លេស",
+  "@language": {
+    "description": "The current Language"
+  }
+}

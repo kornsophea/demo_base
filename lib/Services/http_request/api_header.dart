@@ -1,4 +1,4 @@
-import 'package:getx_base/utils/local_data.dart';
+import 'package:getx_base/Utils/local_data.dart';
 
 class ApiHeader {
   static const Map<String, String> apiHeader = {

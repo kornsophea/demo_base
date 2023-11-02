@@ -1,5 +1,5 @@
 import 'package:get/get_connect/http/src/exceptions/exceptions.dart';
-import 'package:getx_base/helper/dialog_helper.dart';
+import 'package:getx_base/Helpers/dialog_helper.dart';
 
 class ErrorBase {
   static void handleError(dynamic error) {

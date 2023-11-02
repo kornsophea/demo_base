@@ -1,0 +1,15 @@
+{
+ 
+     "writeKey": "a7607757732221178231-1f5a6129949826f213565af384d8980cb104a9f1d6e4e8bbb1d0637c01ed3dda",
+     "readKey": "a7607757732221178231-e224ec686f808bafed6d8263cf60afb17bc035d46f132cc41525d6d7bc1a730a",
+     
+     "upload": {
+          "type": "arb",
+          "files": "lib/l10n/app_en.arb"
+        },
+      
+        "download": {
+          "files": "lib/l10n/app_${lang}.arb"
+        }
+     
+   }

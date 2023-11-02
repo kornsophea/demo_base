@@ -9,11 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations: # added
+    sdk: flutter # added
   get: ^4.6.6
   http: ^1.1.0
   intl: ^0.18.1
   shared_preferences: ^2.2.2
   url_launcher: ^6.2.1
+  intl_translation: ^0.18.2
+  provider: ^6.0.5
+  flutter_circle_flags_svg: ^0.0.3
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +26,7 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  generate: true
   uses-material-design: true
 
   assets:
