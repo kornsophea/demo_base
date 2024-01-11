@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx_base/App/Views/Activity/activity_view.dart';
-import 'package:getx_base/App/Views/Home/home_view.dart';
-import 'package:getx_base/App/Views/Notification/notification_view.dart';
-import 'package:getx_base/App/Views/Profile/profile_view.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -59,11 +55,6 @@ class _MainPageState extends State<MainPage> {
   Widget buildPages() {
     switch (index) {
       case 0:
-        return HomeView();
-      case 1:
-        return ActivityView();
-      case 2:
-        return NotificationView();
       default:
         return Container();
     }
